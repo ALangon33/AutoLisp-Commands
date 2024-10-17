@@ -1,3 +1,9 @@
+; Finding the default TCOUNT function to be lacking?
+; Need a better way to just click and make numbers count up?
+; Look no further - I did it already, don't waste your time
+; Currently asks if you want a prefix
+; Could be adjusted to make it ask for prefix and suffix pretty easily if that's something you need
+
 ; Define Equipment Count Function
 (defun c:ECOUNT ( / oldsnap prefix TextHeight n txt p)
   
