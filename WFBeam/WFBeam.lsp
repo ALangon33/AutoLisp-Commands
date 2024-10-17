@@ -121,7 +121,7 @@
   (setq	dlist nil
 	WFBeamSize  (strcat "W " (itoa global:DepthInt) " x " (itoa global:WeightInt))
   searchLength (strlen WFBeamSize)
-	file  (findfile "T:/PROJECTS AutoCAD/BLOCKS & DATA/VSI DETAIL LIBRARY/AutoLISP/WFBeam/WFBeamData.dat")			;find data file
+	file  (findfile "C:/YourFilePathHere/WFBeam/WFBeamData.dat")			;find data file
 	fp    (open file "r")				;open file to read
 	item  (read-line fp)				;first line is label for file
   );setq
