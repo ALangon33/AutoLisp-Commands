@@ -1,3 +1,9 @@
+;****************************************************************************************************************
+  ; Creates an angle (we're talking structral steel here not geometry)
+  ;  P.S. - I can see why you'd be confused it's not your fault
+;****************************************************************************************************************
+ 
+
 (defun c:Angle (/ oldsnap 
                 tmp:Height tmp:Width tmp:Thickness tmp:AngleLength
                 disp:Height disp:Width disp:Thickness disp:AngleLength
@@ -8,7 +14,7 @@
                 *error*)
   
 ;****************************************************************************************************************
-  ;Define Error
+  ; Define Error
 ;****************************************************************************************************************
  
   (defun *error* ( msg )
